@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contrôleur.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_main_tv_bienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenue"
+        android:layout_margin="3dp"
+        android:padding="20dp"
+        />
+
+    <EditText
+        android:id="@+id/activity_main_saisie_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/saisie_prenom"
+        />
+
+    <Button
+        android:id="@+id/activity_main_b_jouer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jouer"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:padding="30dp"
+        />
+
+
+</LinearLayout>

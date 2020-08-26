@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contrôleur.GameActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_game_tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="70dp"
+        android:padding="20dp"
+        android:text="@string/question"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/activity_game_b_reponse1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reponse1"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/activity_game_b_reponse2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reponse2"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/activity_game_b_reponse3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reponse3"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/activity_game_b_reponse4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reponse4"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
